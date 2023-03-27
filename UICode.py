@@ -5,7 +5,7 @@
 # software: PyCharm
 import tkinter as tk
 from tkinter import filedialog
-from AICode import data_modify
+from AICode import KeNuo
 
 root = tk.Tk()
 root.title("My GUI")
@@ -21,7 +21,7 @@ def upload_file():
 def run_excel():
     file_path = text.get('1.0', tk.END).strip()
     print("正在处理文件：{}".format(file_path))
-    data_modify(file_path)
+    KeNuo(file_path).data_writer()
     label3.config(text="已完成")
 
 
