@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cd3d173-5454-4cb1-8e9c-4ee9a9fa373d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023-03-27/2023-03-27专线.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023-03-27/2023-03-27直送.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UICode.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/Tree-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/Tree-01.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/Tree-02.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/UICode.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/warn-UICode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/UICode/xref-UICode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/2023-03-27/2023-03-27专线.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/2023-03-27/2023-03-27直送.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/UICode.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/new_example.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.xlsx" afterDir="false" />
+    <list default="true" id="5cd3d173-5454-4cb1-8e9c-4ee9a9fa373d" name="Changes" comment="志屁第一版：&#10;1、删掉 物流  OMS报 列&#10;2、创建文件夹 日期为名  比如 2023.3.14&#10;3、然后文件夹生成  3.14直送 和3.14专线  表&#10;4、直送包含 5个sheet 巴中，广元，南充 ，绵阳，达州，专线 多一个西藏&#10;5、直送表 放 四川省五个区数据&#10;6、专线表sheet 西藏放西藏数据&#10;7、如果 冷链件数 + 大件件数&gt;=50   但是 冷链数 小于10  就要在备注下面 写一个送货费40&#10;8、如果  冷链件数 + 大件件数&lt;50  就要在备注下面 写一个送货费80&#10;9、如果实付金额小于8000，那么 就要 &#9;再备注写上  运费  （冷链件数 + 大件件数）*7 元">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-24/2023-03-24专线.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AICode.py" beforeDir="false" afterPath="$PROJECT_DIR$/AICode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UICode.py" beforeDir="false" afterPath="$PROJECT_DIR$/UICode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_example.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/new_example.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/步骤.txt" beforeDir="false" afterPath="$PROJECT_DIR$/步骤.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,9 +127,30 @@
       <option name="presentableId" value="Default" />
       <updated>1679387819744</updated>
     </task>
+    <task id="LOCAL-00001" summary="志屁第一版：&#10;1、删掉 物流  OMS报 列&#10;2、创建文件夹 日期为名  比如 2023.3.14&#10;3、然后文件夹生成  3.14直送 和3.14专线  表&#10;4、直送包含 5个sheet 巴中，广元，南充 ，绵阳，达州，专线 多一个西藏&#10;5、直送表 放 四川省五个区数据&#10;6、专线表sheet 西藏放西藏数据&#10;7、如果 冷链件数 + 大件件数&gt;=50   但是 冷链数 小于10  就要在备注下面 写一个送货费40&#10;8、如果  冷链件数 + 大件件数&lt;50  就要在备注下面 写一个送货费80&#10;9、如果实付金额小于8000，那么 就要 &#9;再备注写上  运费  （冷链件数 + 大件件数）*7 元">
+      <created>1679905973519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679905973519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="志屁第一版：&#10;1、删掉 物流  OMS报 列&#10;2、创建文件夹 日期为名  比如 2023.3.14&#10;3、然后文件夹生成  3.14直送 和3.14专线  表&#10;4、直送包含 5个sheet 巴中，广元，南充 ，绵阳，达州，专线 多一个西藏&#10;5、直送表 放 四川省五个区数据&#10;6、专线表sheet 西藏放西藏数据&#10;7、如果 冷链件数 + 大件件数&gt;=50   但是 冷链数 小于10  就要在备注下面 写一个送货费40&#10;8、如果  冷链件数 + 大件件数&lt;50  就要在备注下面 写一个送货费80&#10;9、如果实付金额小于8000，那么 就要 &#9;再备注写上  运费  （冷链件数 + 大件件数）*7 元" />
+    <option name="LAST_COMMIT_MESSAGE" value="志屁第一版：&#10;1、删掉 物流  OMS报 列&#10;2、创建文件夹 日期为名  比如 2023.3.14&#10;3、然后文件夹生成  3.14直送 和3.14专线  表&#10;4、直送包含 5个sheet 巴中，广元，南充 ，绵阳，达州，专线 多一个西藏&#10;5、直送表 放 四川省五个区数据&#10;6、专线表sheet 西藏放西藏数据&#10;7、如果 冷链件数 + 大件件数&gt;=50   但是 冷链数 小于10  就要在备注下面 写一个送货费40&#10;8、如果  冷链件数 + 大件件数&lt;50  就要在备注下面 写一个送货费80&#10;9、如果实付金额小于8000，那么 就要 &#9;再备注写上  运费  （冷链件数 + 大件件数）*7 元" />
   </component>
 </project>
