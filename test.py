@@ -60,24 +60,27 @@
 #     print('medium')
 # elif num1 >= 10 and num2 >= 10:
 #     print('big')
-import pandas as pd
-import numpy as np
-import random
+# import pandas as pd
+# import numpy as np
+# import random
 
-# 创建一个包含随机数据的DataFrame
-df1 = pd.DataFrame(np.random.randint(0, 100, size=(10, 4)), columns=list('ABCD'))
-# 筛选出df1中B列的值大于50的行，并将结果保存到df2中
-df2 = df1[df1['B'] > 50]
-
-
-# 创建一个函数，用于生成样式
-def highlight(value):
-    if value > 50:
-        return 'background-color: yellow'
-    else:
-        return ''
-
-
-# 使用style.applymap()方法将样式应用到df2中
-styled_df = df2.style.applymap(highlight)
-styled_df.to_excel('style.xlsx')
+# # 创建一个包含随机数据的DataFrame
+# df1 = pd.DataFrame(np.random.randint(0, 100, size=(10, 4)), columns=list('ABCD'))
+# # 筛选出df1中B列的值大于50的行，并将结果保存到df2中
+# df2 = df1[df1['B'] > 50]
+#
+#
+# # 创建一个函数，用于生成样式
+# def highlight(value):
+#     if value > 50:
+#         return 'background-color: yellow'
+#     else:
+#         return ''
+#
+#
+# # 使用style.applymap()方法将样式应用到df2中
+# styled_df = df2.style.applymap(highlight)
+# styled_df.to_excel('style.xlsx')
+i = 10
+if i in [1, 11]:
+    print('in it')
